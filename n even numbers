@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	int i,n;
+	scanf("%d",&n);
+	i=2;
+	printf("The even numbers upto %d are",n);
+	while(i<=n)
+	{
+		if(i%2==0)
+		{
+			printf("\n%d ",i);
+		}
+		i++;
+	}
+}
